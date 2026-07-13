@@ -38,7 +38,7 @@ const gamesDatabase = [
     },
     {
         id: 5,
-        title: "Nintendo 64",
+        title: "Nintendo 64 Americano",
         platform: "Nintendo",
         price: 789.90,
         type: "console",
@@ -49,7 +49,7 @@ const gamesDatabase = [
             "./Imagens games/n64 3.jpg",
             "./Imagens games/n64 4.jpg"
         ],
-        description: "Nintendo 64 Americano\n1 Controle\n1 Fonte\n1 Cabo AV\n1 Jumper Pack\n1 Cartão de Memória\nSuper Mario 64\nHey You Pikachu\nKirby 64: The Crystal Shards\nDonkey Kong 64",        payment: ["Pix (5% Off)", "Cartão de Crédito"],
+        description: "Nintendo 64 Americano Desbloqueado\n1 Controle\n1 Fonte\n1 Cabo AV\n1 Jumper Pack\n1 Cartão de Memória\nSuper Mario 64\nHey You Pikachu\nKirby 64: The Crystal Shards\nDonkey Kong 64",        payment: ["Pix (5% Off)", "Cartão de Crédito"],
         inStock: true
     },
     {
@@ -257,7 +257,7 @@ const renderProdutoInterno = (id) => {
 
     let buyButtonHTML = `
         <a href="https://wa.me/5511990112716?text=${zapMessage}" target="_blank" class="btn-whatsapp-buy">
-            <i class="fa-brands fa-whatsapp"></i> Finalizar Compra no WhatsApp
+            <i class="fa-brands fa-whatsapp"></i> Finalizar Compra
         </a>
     `;
 
