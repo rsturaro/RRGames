@@ -16,7 +16,7 @@ const gamesDatabase = [
         ],
         description: "Nintendo Wii Black Edition 512MB (Na Caixa Completo)\n2 Controles Originais\n1 Fonte Original\n1 Cabo AV Original\n1 Jogo\n1 Sensor Bar\nManuais originais",
         payment: ["Pix (5% Off)", "Cartão de Crédito"],
-        inStock: true
+        inStock: false
     },
     {
         id: 2,
@@ -40,7 +40,7 @@ const gamesDatabase = [
         id: 5,
         title: "Nintendo 64 Americano",
         platform: "Nintendo",
-        price: 789.90,
+        price: 749.90,
         type: "console",
         date: "2026-07-13",
         images: [
@@ -85,7 +85,7 @@ const gamesDatabase = [
         ],
         description: "Playstation 2 FAT Desbloqueado com OPL\n1 Controle Original\n1 Fonte Original\n1 Cabo AV Original\n10 Jogos da sua escolha no OPL\nMemory Card 8MB Original\nDesbloqueado e com leitor 100% funcionando",
         payment: ["Pix (5% Off)", "Cartão de Crédito"],
-        inStock: true
+        inStock: false
     }
 ];
 
